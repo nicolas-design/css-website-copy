@@ -19,7 +19,6 @@ const background2 = css`
   padding: 200px 0px;
 `;
 
-
 const menu = css`
   position: fixed;
   right: 3%;
@@ -202,12 +201,6 @@ const button1 = css`
   border-bottom-color: #8c63fd;
 `;
 
-const imgWrapper = css`
-  position: relative;
-  margin: auto;
-  width: 1200px;
-`;
-
 const background3 = css`
   width: 100%;
   height: 645.53px;
@@ -261,34 +254,6 @@ const imgWr3 = css`
   float: left;
 `;
 
-const img3 = css`
-  max-width: 500px;
-`;
-
-const bothdiv3 = css`
-  display: flex;
-`;
-
-const background4 = css`
-  background-color: #212224;
-  padding: 200px 0px;
-  height: 611px;
-  width: 100%;
-`;
-
-const innerDiv4 = css`
-  margin: 0px 244px;
-`;
-
-const svgContainer4 = css`
-  position: relative;
-  z-index: 1;
-  display: block;
-  margin: auto;
-  max-width: 892px;
-  perspective: 800px;
-`;
-
 const img2 = css`
   max-width: 1000px;
   z-index: -1000;
@@ -314,7 +279,7 @@ function App() {
             <input css={inputEm} placeholder="Email Adress" />
             <input type="submit" css={input2} value="sign up" />
           </form>
-          <div class="signIn"></div>
+          <div class="signIn" />
         </div>
       </header>
 
@@ -376,7 +341,7 @@ function App() {
                 </h3>
               </div>
               <div css={imgWr3}>
-                {/*<img
+                {/* <img
                   src="https://cloverapp.co/static/media/agenda-dark.84d71097.png"
                   alt="phone"
                 css={img3}
