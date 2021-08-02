@@ -9,19 +9,20 @@ import screen from './Images/Screenshot.png';
 const background = css`
   background-color: #212224;
   width: 100%;
-  min-height: 760px;
+  height: 100vh;
 `;
 
 const background2 = css`
   background-color: #212224;
   width: 100%;
-  min-height: 1328.67px;
+  height: 160vh;
   padding: 200px 0px;
 `;
 
+
 const menu = css`
   position: fixed;
-  left: 70%;
+  right: 3%;
   top: 18px;
   z-index: 100;
 `;
@@ -103,12 +104,12 @@ const imgPhone = css`
   position: absolute;
   bottom: 0px;
   right: 45%;
-  max-width: 710px;
+  width: 550px;
 `;
 const h12 = css`
   position: absolute;
   top: 290px;
-  right: 17%;
+  right: 13%;
 `;
 
 const h1first = css`
@@ -137,7 +138,7 @@ const h2style = css`
 const innerDiv = css`
   position: relative;
   width: auto;
-  margin: 0px 244px;
+  margin: 0px 10%;
   padding: 0;
 `;
 
@@ -375,20 +376,21 @@ function App() {
                 </h3>
               </div>
               <div css={imgWr3}>
-                <img
+                {/*<img
                   src="https://cloverapp.co/static/media/agenda-dark.84d71097.png"
                   alt="phone"
-                  css={img3}
-                />
+                css={img3}
+                />*/}
               </div>
             </div>
           </div>
         </div>
+        {/*
         <div css={background4}>
           <div css={innerDiv4}>
             <div css={svgContainer4}></div>
           </div>
-        </div>
+        </div>*/}
       </main>
     </>
   );
